@@ -13,8 +13,13 @@ public class App {
 //            System.out.println(value);
 //        }
 
-        Word_Reverse word_reverse = new Word_Reverse();
-        word_reverse.word_reverse("Hello good sir! How are you my good sir?");
+//        Word_Reverse word_reverse = new Word_Reverse();
+//        word_reverse.word_reverse("Hello good sir! How are you my good sir?");
+
+        Word_Reverse newObj = new Word_Reverse();
+
+        System.out.println(newObj.reverseString("hwllo my good sir"));
+
 
 
     }
