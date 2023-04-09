@@ -1,17 +1,24 @@
 package ds.queue;
 
+
+
 public class App {
-    public static void main(String[] args){
+    public static void main(String[] args) throws QueueFullException, QueueEmptyException {
 
-        Queue myQueue = new Queue(5);
-        myQueue.insert(100);
-        myQueue.insert(1000);
-        myQueue.insert(12);
-        myQueue.insert(1040);
-        myQueue.insert(193);
-       // myQueue.insert(104);
+        Queue<Integer> myQueue = new Queue<Integer>(5);
 
-        myQueue.view();
+        myQueue.enqueue(1);
+        myQueue.enqueue(2);
+        myQueue.enqueue(3);
+        myQueue.enqueue(4);
+        myQueue.enqueue(5);
+       // myQueue.enqueue(6);
 
+        myQueue.printQueue();
+        myQueue.dequeue();
+
+        myQueue.printQueue();
+        myQueue.enqueue(6);
+        myQueue.printQueue();
     }
 }

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34d8617-5f61-4b71-a67e-71db1730d36a" name="Changes" comment="Delete old files">
-      <change afterPath="$PROJECT_DIR$/src/ds/queue/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ds/queue/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/adt/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adt/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/adt/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/stack/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/stack/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ds/stack/Word_Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/stack/Word_Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ds/queue/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/queue/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ds/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ds/queue/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ds.queue.App" />
+      <module name="DSA_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ds.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +83,7 @@
       <workItem from="1680026289531" duration="7678000" />
       <workItem from="1680813138534" duration="6289000" />
       <workItem from="1680861524820" duration="5614000" />
-      <workItem from="1681000046077" duration="802000" />
+      <workItem from="1681000046077" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary="Delete old files">
       <created>1680727120915</created>
