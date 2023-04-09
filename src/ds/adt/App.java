@@ -1,8 +1,8 @@
-package adt;
+package ds.adt;
 
 public class App {
     public static void main(String[] args) {
-        adt.Counter myCounter = new adt.Counter("myCounter");
+        ds.adt.Counter myCounter = new ds.adt.Counter("myCounter");
 
         myCounter.increment();
                 myCounter.increment();

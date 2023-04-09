@@ -1,4 +1,4 @@
-package adt;
+package ds.adt;
 
 public class Counter {
 
